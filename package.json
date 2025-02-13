@@ -13,9 +13,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/DrewAnzalone/intro-to-mongoose-lab/issues"
   },
-  "homepage": "https://github.com/DrewAnzalone/intro-to-mongoose-lab#readme"
+  "homepage": "https://github.com/DrewAnzalone/intro-to-mongoose-lab#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0",
+    "prompt-sync": "^4.2.0"
+  }
 }
